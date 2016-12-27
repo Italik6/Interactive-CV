@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'ProximaBold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold") format("svg"), url("../fonts/ProximaNova-Bold") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaLight';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light") format("svg"), url("../fonts/ProximaNova-Light") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 19, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+html {
+  font-size: 14px; }
+
+/* line 23, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+body {
+  background: #9E9E9E;
+  font-family: 'ProximaLight', Arial, sans-serif; }
+
+/* line 29, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 39, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .alert-modals {
+  position: absolute;
+  width: 100%;
+  text-align: center; }
+
+/* line 44, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .widget-profil .circle {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em; }
+
+/* line 55, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test #profile_social a:hover {
+  background-color: #fff; }
+
+/* line 58, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .widget-profil .image-holder {
+  position: relative;
+  margin: 15px auto;
+  width: 150px;
+  height: 150px; }
+
+/* line 64, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .widget-profil .head-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px; }
+
+/* line 71, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .widget-profil .head-image {
+  z-index: 0; }
+
+/* line 74, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .widget-profil .front {
+  z-index: 1; }
+
+/* line 77, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test a {
+  text-decoration: none;
+  color: #616161; }
+
+/* line 81, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .main {
+  padding: 20px 20px; }
+  @media (max-width: 574px) {
+    /* line 81, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+    #test .main {
+      padding: 10px; } }
+  @media (max-width: 400px) {
+    /* line 81, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+    #test .main {
+      padding: 0; } }
+
+/* line 90, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .wrap {
+  margin: 0 auto;
+  width: 8.1in;
+  padding: 0.2in;
+  background: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+  @media (max-width: 820px) {
+    /* line 90, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+    #test .wrap {
+      width: 100%; } }
+
+/* line 103, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .name {
+  color: #F16519;
+  text-transform: uppercase;
+  font-size: 30px; }
+
+/* line 108, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .company-name {
+  color: #F16519;
+  margin: 0px; }
+  /* line 111, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .company-name span {
+    font-style: italic;
+    color: #616161; }
+
+/* line 116, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .tagline {
+  color: #616161;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+/* line 121, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .vcard {
+  font-style: normal;
+  color: #616161; }
+  /* line 124, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .vcard i {
+    margin-right: 4%; }
+  /* line 127, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .vcard .text {
+    vertical-align: middle; }
+
+/* line 131, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .social-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  @media (max-width: 768px) {
+    /* line 131, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+    #test .social-flex {
+      margin: 10px 0; } }
+
+/* line 143, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .my-linkedin {
+  color: #3492c2;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in; }
+  /* line 147, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .my-linkedin:hover {
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+
+/* line 154, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .my-github {
+  color: #000;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in; }
+  /* line 158, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .my-github:hover {
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+
+/* line 165, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .my-instagram {
+  color: #e95950;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in; }
+  /* line 169, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .my-instagram:hover {
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+
+/* line 176, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .my-twitter {
+  color: #25baf0;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in; }
+  /* line 180, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+  #test .my-twitter:hover {
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+
+/* line 190, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience,
+#test .education,
+#test .skills,
+#test .interest {
+  position: relative;
+  border-left: 1px dotted #000;
+  margin-bottom: 30px;
+  padding: 0 0 10px 30px; }
+
+/* line 199, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience h2,
+#test .education h2,
+#test .skills h2,
+#test .interest h2 {
+  font-size: 1.5em;
+  color: #616161; }
+
+/* line 206, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience .icon,
+#test .education .icon,
+#test .skills .icon,
+#test .interest .icon {
+  position: relative;
+  margin: 0px 10px 0 -50px;
+  display: inline-block;
+  width: 40px;
+  font-size: 25px;
+  text-align: center;
+  background: #f5f5f5;
+  border-radius: 30px;
+  height: 40px;
+  line-height: 1.8;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden; }
+
+/* line 222, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .skills,
+#test .education {
+  border-color: #616161; }
+
+/* line 225, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .education li {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+/* line 229, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .education li:last-child {
+  margin-bottom: 0; }
+
+/* line 232, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .education .school {
+  display: block; }
+
+/* line 235, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .education li:before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 8px;
+  left: -5px;
+  margin-top: 3px;
+  border: 2px solid #F16519; }
+
+/* line 246, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience {
+  border-color: #000; }
+
+/* line 249, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience .icon {
+  color: #616161; }
+
+/* line 252, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience .text {
+  color: #616161; }
+
+/* line 255, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience h3 {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #616161;
+  font-family: 'ProximaBold'; }
+
+/* line 261, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience h3:before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 8px;
+  left: -5px;
+  margin-top: 3px;
+  border: 2px solid #F16519; }
+
+/* line 272, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience a {
+  color: #F16519; }
+
+/* line 275, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .experience li {
+  margin: 2% 8% 2% 5%; }
+
+/* line 278, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test img-center {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 283, C:/Users/User/Desktop/InterviewMe/WWW/css/style.scss */
+#test .print-button {
+  margin: 20px 10px 0px -4px; }
+
+/*# sourceMappingURL=style.css.map */

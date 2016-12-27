@@ -1,0 +1,40 @@
+body {
+    background: #00BCD4 !important;
+}
+
+.experience .icon,
+.education .icon,
+.skills .icon,
+.interest .icon {
+    background: #CDDC39 !important;
+}
+
+.wrap {
+    background: #CDDC39 !important;
+}
+
+.education li:before {
+    background: #CDDC39 !important;
+    border-color: #00BCD4 !important;
+}
+
+.experience h3:before {
+    background: #CDDC39 !important;
+    border-color: #00BCD4 !important;
+}
+
+.experience a {
+    color: #F0F4C3 !important;
+}
+
+.name {
+    color: #F0F4C3 !important;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.company-name {
+    color: #F0F4C3 !important;
+    font-weight:bold;
+}
